@@ -55,12 +55,12 @@ boton.addEventListener("click", saludar)     //tambien puedo declarar la funcion
 
 
 
-let elemento = document.getElementById("miElemento");
+/* let elemento = document.getElementById("miElemento");
 
 
 elemento.addEventListener("click", function() {      // Agregar un evento de clic al elemento utilizando addEventListener
   console.log("Haz hecho clic en el elemento!");
-});
+}); */
 
 
 
@@ -69,13 +69,13 @@ elemento.addEventListener("click", function() {      // Agregar un evento de cli
         //MOUSEOVER: Este evento se activa cuando el mouse entra en un elemento.
 
 
-let elemento = document.getElementById("miElemento");
+/* let elemento = document.getElementById("miElemento");
 
 
 
 elemento.addEventListener("mouseover", function() {     
   console.log("El mouse ha entrado en el elemento!");
-})
+}) */
 
 
 
@@ -85,13 +85,13 @@ elemento.addEventListener("mouseover", function() {
             //MOUSEOUT: Este evento se activa cuando el mouse sale de un elemento.
 
 
-let elemento = document.getElementById("miElemento");
+/* let elemento = document.getElementById("miElemento");
 
 
 elemento.addEventListener("mouseout", function() {
   console.log("El mouse ha salido del elemento!");
 });
-
+ */
 
 
 
@@ -99,14 +99,14 @@ elemento.addEventListener("mouseout", function() {
 
 
 
-let elemento = document.getElementById("miElemento");
+/* let elemento = document.getElementById("miElemento");
 
 
 elemento.addEventListener("mousemove", function(event) {
   console.log("El mouse estaen la posición x: " + event.clientX + " y en la posición y: " + event.clientY);
 });
 
-
+ */
 
 /*En este último ejemplo, usamos el objeto event para obtener las coordenadas del mouse en la pantalla 
 y las muestra en la consola. (recorda que el event es un objeto propio de js)
@@ -165,11 +165,11 @@ El evento input se dispara inmediatamente después de que el valor cambia. */
 
 
 
-let inputField = document.getElementById('miCampoDeTexto');
+/* let inputField = document.getElementById('miCampoDeTexto');
 inputField.addEventListener('input', function(event) {
   console.log('Valor del campo de texto cambiado:', event.target.value);
 });
-
+ */
 
 
 
